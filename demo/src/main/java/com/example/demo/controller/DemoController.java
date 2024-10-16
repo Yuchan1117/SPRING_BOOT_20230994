@@ -1,14 +1,18 @@
 package com.example.demo.controller;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
-
 import com.example.demo.model.domain.TestDB;
-
+import com.example.demo.model.repository.TestRepository;
+import com.example.demo.model.service.TestService;
 
 @Controller // 컨트롤러 어노테이션 명시
 public class DemoController {
+
+ @Autowired // 객체 주입 자동화
+    private TestService testService;
     // @GetMapping(" /hello ") // 전송 방식 GET
     // public String hello(Model model) {
     //     model.addAttribute("data", " 방갑습니다."); // model 설정
