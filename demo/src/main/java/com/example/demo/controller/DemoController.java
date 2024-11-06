@@ -5,7 +5,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import com.example.demo.model.domain.TestDB;
-import com.example.demo.model.repository.TestRepository;
+//import com.example.demo.model.repository.TestRepository;
 import com.example.demo.model.service.TestService;
 
 @Controller // 컨트롤러 어노테이션 명시
