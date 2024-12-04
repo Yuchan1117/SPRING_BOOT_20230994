@@ -1,6 +1,6 @@
 package com.example.demo.controller;
 
-import java.util.List;
+//import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,19 +13,19 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.PutMapping;
+//import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import com.example.demo.model.domain.TestDB;
-import com.example.demo.model.repository.TestRepository;
-import com.example.demo.model.service.TestService;
+//import com.example.demo.model.domain.TestDB;
+//import com.example.demo.model.repository.TestRepository;
+//import com.example.demo.model.service.TestService;
 
 import jakarta.servlet.http.HttpSession;
 
-import com.example.demo.model.repository.BlogRepository;
+//import com.example.demo.model.repository.BlogRepository;
 import com.example.demo.model.service.AddArticleRequest;
 import com.example.demo.model.service.BlogService;
-import com.example.demo.model.domain.Article;
+//import com.example.demo.model.domain.Article;
 import com.example.demo.model.domain.Board;
 
 
